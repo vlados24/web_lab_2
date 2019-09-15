@@ -1,0 +1,50 @@
+#break ul{
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+}
+
+#break li:hover ul {
+    display: block;
+}
+
+#break, #break ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#break {
+    height: 40px;
+    background-color: #666;
+    padding-left: 270px;
+    min-width: 470px;
+}
+
+#break li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#break li a {
+    display: block;
+    padding: 6px;
+    width: 150px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#break ul li {
+    float: none;
+}
+
+#break li:hover {
+    background-color: #f90;
+}
+
+#break ul li:hover {
+    background-color: #666;
+}
