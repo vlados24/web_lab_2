@@ -6,16 +6,6 @@ h1{
     text-align: center;
 }
 
-.top-menu {
-    background: rgba(0, 0, 0, 0.99);
-    box-shadow: 3px 0 7px rgba(0,0,0,.3);
-    height: 90px;
-    padding: 0;
-}
-
-.top-menu:after{
-    clear: both;
-}
 
 .break-logo {
     display: inline-block;
@@ -23,77 +13,6 @@ h1{
     padding-left: 50px;
 }
 
-.menu-main {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    float: right;
-}
-
-.menu-main li {
-    display: inline-block;
-    padding-top: 15px;
-    padding-right: 75px;
-    position: relative;
-}
-
-.menu-main a {
-    text-decoration: none;
-    display: block;
-    position: relative;
-    line-height: 50px;
-    padding-left: 10px;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    color: #f3f7e5;
-    height: auto;
-}
-
-.menu-main a:before {
-    content: "";
-    width: 9px;
-    height: 9px;
-    background: #f3f7e5;
-    position: absolute;
-    left: 50%;
-    transform: rotate(45deg) translateX(7px);
-    opacity: 0;
-}
-
-.menu-main a:hover:before {opacity: 1;}
-
-li a:hover {
-    transition: 1.5s;
-    color: yellow;
-}
-
-ul.submenu {
-    display: none;
-    position: absolute;
-    width: 200px;
-    background-color: darkslategray;
-    border: 1px solid ;
-    font-size: 20px;
-    text-align: center;
-    margin-left: -20px;
-}
-
-ul.submenu > li > a {
-    display: block;
-    padding: 1px;
-    color: white;
-    text-decoration: none;
-}
-
-ul.submenu > li > a:hover {
-    color: black;
-    transition: 0.7s;
-}
-
-ul.menu-main > li:hover > ul {
-    display: block;
-}
 
 .text{
     display: block;
@@ -137,11 +56,24 @@ nav img {
         transform: translateX(0);
     }
 }
+ #img {
+     animation: shafl 1s;
+ }
+@keyframes shafl {
+    0% {
+        transform: translateX(-1000%);
+    }
+    50% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
 table {
     color: white;
     background-color: #111;
-
 }
 table tr {
     background-color: #0E0B08;
@@ -150,4 +82,21 @@ table tr th {
     padding: 40px 190px;
 }
 
+.nav-item {
+    margin-left: 20px;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: yellow;
+}
+
+
+
+.navbar-expand-lg {
+    background-color:black;
+}
 
