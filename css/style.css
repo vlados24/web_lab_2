@@ -1,5 +1,6 @@
 body{
     font-family: "Segoe UI Light", sans-serif;
+    background-color: darkslategray;
 }
 
 h1{
@@ -30,7 +31,6 @@ h1{
 footer{
     font-size: 10px;
     display: block;
-    background-color: whitesmoke;
     height: 30px;
     text-align: end;
 }
@@ -94,9 +94,48 @@ li a:hover {
     color: yellow;
 }
 
-
-
 .navbar-expand-lg {
     background-color:black;
 }
 
+.news-1 {
+    padding-top: 40px;
+}
+
+.news-2 {
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add-image {
+    margin-top: 120px;
+}
+
+.foto-admin{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.form{
+    padding-left:390px;
+}
+
+.admin-button-add-foto {
+    float: right;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.admin-button-add-text {
+    float: right;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.admin-form {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
